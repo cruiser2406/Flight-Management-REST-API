@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { 
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+  "scripts": {
+    "start": "nodemon server.js"
+    
   },
   "author": "",
   "license": "ISC",
