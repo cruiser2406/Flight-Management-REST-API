@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 mongoose
   .connect(
-    `mongodb+srv://john:john@cluster0.kwqmn8j.mongodb.net/flight?retryWrites=true&w=majority`,
+    `mongodb+srv://`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
